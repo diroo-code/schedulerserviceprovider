@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseAdmin" Version="3.1.0" />
+    <PackageReference Include="Google.Cloud.Firestore" Version="3.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DatabaseLogic">
+      <HintPath>..\..\library\bin\Debug\net8.0\DatabaseLogic.dll</HintPath>
+    </Reference>
+    <Reference Include="staffschedulerlibrary">
+      <HintPath>..\staffschedulerlibrary\staffschedulerlibrary\bin\Debug\net8.0\staffschedulerlibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
